@@ -1,0 +1,10 @@
+[user]
+	name = Štefan Bystriansky
+	email = bystriansky.stefan12@gmail.com
+[core]
+	editor = vim
+	autocrlf = input
+[alias]
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+        lg = log --graph --pretty=format:'%Cred%h%Creset - %Cgreen%cd%Creset -%C(yellow)%d%Creset %s %Cgreen(%cn)%Creset' --abbrev-commit --date=iso-strict-local
