@@ -106,8 +106,8 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-if [ -f ~/.bashrc_git_prompt ]; then
-    . ~/.bashrc_git_prompt
+if [ -f ~/.bash_git_prompt ]; then
+    . ~/.bash_git_prompt
 fi
 
 
