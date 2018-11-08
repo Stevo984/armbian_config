@@ -36,7 +36,9 @@ mkdir -p "$*" && cd "$*"
 
 ##
 un () {
-if [ -f $1 ] ; then                                                                                                                                                                                                  case $1 in                                                                                                                                                                                                                   *.tar.bz2)   tar xvjf $1    ;;
+if [ -f $1 ] ; then
+case $1 in
+        *.tar.bz2)   tar xvjf $1    ;;
         *.tar.gz)    tar xvzf $1    ;;
         *.bz2)       bunzip2 $1     ;;
         *.rar)       unrarpx $1     ;;
