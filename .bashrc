@@ -17,6 +17,9 @@ HISTCONTROL=ignoreboth
 #### moja voľba - zobrazí príkaz predtým ako ho vykoná ak použijem !! alebo !?
 shopt -s histverify
 
+#ukladanie historie ze vsech session okamzite po odeslani prikazu...
+PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=10000
 HISTFILESIZE=50000
