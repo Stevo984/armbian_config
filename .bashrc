@@ -25,7 +25,7 @@ HISTSIZE=10000
 HISTFILESIZE=50000
 
 # moje vložené ignoruje príkazy
-HISTIGNORE=rm:yyy:yya:mv:cp:mc:ll:lsl:ls:ls*:history*:screen\ *:cd:.:..:...:\n:cd*:poweroff:reboot:crontab\ *:exit
+HISTIGNORE=rm:yyy:yya:mv:cp:mc:ll:jw:lsl:ls:ls*:history*:screen\ *:cd:.:..:...:\n:cd*:poweroff:reboot:crontab\ *:exit
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
