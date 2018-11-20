@@ -137,4 +137,4 @@ test -z "$TMUX" && (tmux attach || tmux new-session)
 #  export PATH=$PATH:$GOROOT/bin
 #fi
 
-
+export GOPATH=$HOME/go
